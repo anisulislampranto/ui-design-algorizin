@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="relative flex items-center">
             <img className="absolute mx-3" src={searchIcon} alt="" />
             <input
-              className="hidden sm:block h-10 bg-neutral-200 rounded-md form-input w-80 pl-10"
+              className="hidden sm:block h-10 bg-neutral-100 rounded-md form-input w-80 pl-10"
               type="text"
               placeholder="Search"
             />
