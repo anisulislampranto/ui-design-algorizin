@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import DashboardTable from "../DashboardTable/DashboardTable";
 
 const DashBoard = () => {
   return (
@@ -69,7 +70,9 @@ const DashBoard = () => {
                   placeholder="Search"
                 />
               </div>
-              <div>don</div>
+              <div>
+                <DashboardTable />
+              </div>
             </div>
           </div>
         </div>

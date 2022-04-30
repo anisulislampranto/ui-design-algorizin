@@ -1,81 +1,120 @@
 [{
-    "Date Updated": "12/31/2021",
+    "dateupdated": "12/31/2021",
     "Title": "Family Viewing",
     "Details": "Muscular calcificat NEC",
-    "Status": false,
-    "Quantity": "47835",
-    "Unit Price": "5",
+    "Status": "alright",
+    "Quantity": {
+        "ordered":"200",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
     "Amount": "9"
   }, {
-    "Date Updated": "6/3/2021",
+    "dateupdated": "6/3/2021",
     "Title": "Generation War",
     "Details": "Ankylosis-joint NEC",
-    "Status": false,
-    "Quantity": "46903",
-    "Unit Price": "107",
+    "Status": "In Progress",
+    "Quantity": {
+        "ordered":"122",
+        "totalInStock":"230"
+    },
+    "unitprice": "10",
+
     "Amount": "42791"
   }, {
-    "Date Updated": "11/22/2021",
+    "dateupdated": "11/22/2021",
     "Title": "Field of Dreams",
     "Details": "Opn cortx lac-brief coma",
-    "Status": true,
-    "Quantity": "7",
-    "Unit Price": "230",
+    "Status": "Out of Stock",
+    "Quantity": {
+        "ordered":"100",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
+
     "Amount": "92"
   }, {
-    "Date Updated": "5/24/2021",
+    "dateupdated": "5/24/2021",
     "Title": "Outsiders (Ceddo)",
     "Details": "Acidosis",
-    "Status": true,
-    "Quantity": "8",
-    "Unit Price": "803",
+    "Status": "alright",
+    "Quantity": {
+        "ordered":"0",
+        "totalInStock":"200"
+    },
+    "unitprice": "10",
+
     "Amount": "778"
   }, {
-    "Date Updated": "4/28/2022",
+    "dateupdated": "4/28/2022",
     "Title": "Pepe",
     "Details": "Anhidrosis",
-    "Status": false,
-    "Quantity": "8",
-    "Unit Price": "2800",
+    "Status": "In Progress",
+    "Quantity": {
+        "ordered":"0",
+        "totalInStock":"200"
+    },
+    "unitprice": "10",
+
     "Amount": "105"
   }, {
-    "Date Updated": "10/31/2021",
+    "dateupdated": "10/31/2021",
     "Title": "Outrage",
-    "Details": "Mal mastocytosis thorax",
-    "Status": true,
-    "Quantity": "78225",
-    "Unit Price": "70026",
+    "Details": "",
+    "Status":"alright",
+    "Quantity": {
+        "ordered":"0",
+        "totalInStock":"200"
+    },
+    "unitprice": "10",
+
     "Amount": "58"
   }, {
-    "Date Updated": "10/2/2021",
+    "dateupdated": "10/2/2021",
     "Title": "Mouth to Mouth (Boca a boca)",
     "Details": "Shock NOS",
-    "Status": false,
-    "Quantity": "19731",
-    "Unit Price": "3",
+    "Status": "Out of Stock",
+    "Quantity": {
+        "ordered":"200",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
+
     "Amount": "9"
   }, {
-    "Date Updated": "6/25/2021",
+    "dateupdated": "6/25/2021",
     "Title": "Punch-Drunk Love",
-    "Details": "Singl livebrn-before adm",
-    "Status": true,
-    "Quantity": "9",
-    "Unit Price": "261",
+    "Details": "",
+    "Status": "In Progress",
+    "Quantity": {
+        "ordered":"200",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
+
     "Amount": "91632"
   }, {
-    "Date Updated": "7/11/2021",
+    "dateupdated": "7/11/2021",
     "Title": "Baraka",
-    "Details": "Hodgkins dis NOS pelvic",
-    "Status": true,
-    "Quantity": "265",
-    "Unit Price": "502",
+    "Details": "",
+    "Status":"Out of Stock",
+    "Quantity": {
+        "ordered":"200",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
+
     "Amount": "452"
   }, {
-    "Date Updated": "7/29/2021",
-    "Title": "Little Nemo: Adventures in Slumberland",
+    "dateupdated": "7/29/2021",
+    "Title": "Little Nemo: Adventures in",
     "Details": "Night blindness NOS",
-    "Status": false,
-    "Quantity": "1389",
-    "Unit Price": "737",
+    "Status": "In Progress",
+    "Quantity": {
+        "ordered":"200",
+        "totalInStock":"300"
+    },
+    "unitprice": "10",
+
     "Amount": "9288"
   }]
