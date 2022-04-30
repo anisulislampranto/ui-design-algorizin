@@ -6,7 +6,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import userImage from "../../assets/Ellipse 1.png";
-import searchIcon from "../../assets/Vector.png";
 
 const Navbar = () => {
   return (
@@ -17,7 +16,10 @@ const Navbar = () => {
             Starbucks <FontAwesomeIcon icon={faCaretDown} />
           </h1>
           <div className="relative flex items-center">
-            <img className="absolute mx-3" src={searchIcon} alt="" />
+            <FontAwesomeIcon
+              className="absolute mx-3"
+              icon={faMagnifyingGlass}
+            />
             <input
               className="hidden sm:block h-10 bg-neutral-100 rounded-md form-input w-80 pl-10"
               type="text"
