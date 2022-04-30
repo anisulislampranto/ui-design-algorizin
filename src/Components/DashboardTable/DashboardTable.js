@@ -1,6 +1,8 @@
 import {
   faAngleLeft,
   faAngleRight,
+  faArrowDown,
+  faArrowUp,
   faCaretDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,18 +13,32 @@ const DashboardTable = () => {
   return (
     <div>
       <table className="w-full">
-        <thead>
+        <thead className="">
           <tr className="border-b-2 p-6  h-10 bg-orange-100">
             <td>
               <input type="checkbox" name="" id="" className=" m-3" />
             </td>
-            <td>Date Updated</td>
-            <td>Title</td>
-            <td>Details</td>
-            <td>Status</td>
+            <td className="sm:w-32">
+              Date Updated <FontAwesomeIcon icon={faArrowDown} />
+            </td>
+            <td className="flex gap-2 items-center mt-2">
+              Title
+              <div className="flex flex-col">
+                <FontAwesomeIcon className=" -mb-1" icon={faArrowUp} />
+                <FontAwesomeIcon className=" -mt-1" icon={faArrowDown} />
+              </div>
+            </td>
+            <td className="sm:hidden md:block">Details</td>
+            <td className="sm: w-36">Status</td>
             <td>Quantity</td>
-            <td className="text-right">Unit Price</td>
-            <td className="text-right pr-4">Amount</td>
+            <td className="text-right sm:hidden md:block">Unit Price</td>
+            <td className="flex text-right ml-10 gap-2 items-center sm:mr-3">
+              Amount
+              <div className="flex flex-col">
+                <FontAwesomeIcon className=" -mb-1" icon={faArrowUp} />
+                <FontAwesomeIcon className=" -mt-1" icon={faArrowDown} />
+              </div>
+            </td>
           </tr>
         </thead>
         <tbody>
@@ -33,7 +49,7 @@ const DashboardTable = () => {
               </td>
               <td>{data.dateupdated}</td>
               <td>{data.Title}</td>
-              <td>
+              <td className="sm:hidden md:block">
                 {data.Details} {data.Details === "" && "-"}
               </td>
               <td className="flex mt-4">
@@ -52,12 +68,16 @@ const DashboardTable = () => {
                 <strong>{data.Quantity.ordered}</strong>/
                 {data.Quantity.totalInStock}
               </td>
-              <td className="text-right">${data.unitprice}</td>
-              <td className="text-right pr-4">${data.Amount}</td>
+              <td className="text-right sm:hidden md:block">
+                ${data.unitprice}
+              </td>
+              <td className="text-right pr-7">${data.Amount}</td>
             </tr>
           ))}
         </tbody>
       </table>
+
+      {/* bottom pagination */}
       <div className="pl-4 pb-10 pt-5 flex justify-between">
         <div className=" border-2 border-gray-400 p-2 rounded-md text-gray-500">
           10 Items Per page
