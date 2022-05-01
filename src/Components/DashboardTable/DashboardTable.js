@@ -59,7 +59,9 @@ const DashboardTable = () => {
                 {data.dateupdated}
               </td>
               <td className="p-3 sm:p-0 md:p-0">{data.Title}</td>
-              <td className="hidden sm:hidden md:block">{data.Details}</td>
+              <td className="hidden sm:hidden md:block">
+                {data.Details} {data.Details === "" && "-"}
+              </td>
               <td>
                 <div className="flex">
                   <span className="hidden sm:block"> {data.Status}</span>
