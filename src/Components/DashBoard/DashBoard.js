@@ -16,7 +16,7 @@ const DashBoard = () => {
         <div className="hidden sm:block sm:w-20 md:w-52 h-screen border-r-2 border-neutral-200 ">
           <div className="p-4 items-center sm:items-center md:items-start flex flex-col md:p-6 text-left">
             <a
-              href=""
+              href="/"
               className=" p-3 h-10 flex gap-2 items-center hover:bg-white hover:text-green-500 hover:rounded-md"
             >
               <FontAwesomeIcon icon={faHouse} />
@@ -25,7 +25,7 @@ const DashBoard = () => {
               </span>
             </a>
             <a
-              href=""
+              href="/"
               className=" p-3 h-10 flex gap-2 items-center hover:bg-white hover:text-green-500 hover:rounded-md"
             >
               <FontAwesomeIcon icon={faFileLines} />
@@ -34,7 +34,7 @@ const DashBoard = () => {
               </span>
             </a>
             <a
-              href=""
+              href="/"
               className="p-3 h-10 flex gap-2 items-center hover:bg-white hover:text-green-500 hover:rounded-md"
             >
               <FontAwesomeIcon icon={faFileLines} />
@@ -43,7 +43,7 @@ const DashBoard = () => {
               </span>
             </a>
             <a
-              href=""
+              href="/"
               className=" p-3 h-10 flex gap-2 items-center hover:bg-white hover:text-green-500 hover:rounded-md"
             >
               <FontAwesomeIcon icon={faGear} />
