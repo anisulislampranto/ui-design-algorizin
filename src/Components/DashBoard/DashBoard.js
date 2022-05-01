@@ -80,22 +80,22 @@ const DashBoard = () => {
 
       {/* bottom AppBar for Mobilde Device */}
       <div className="sm:hidden md:hidden lg:hidden w-screen flex justify-evenly items-center fixed bottom-0 h-10 bg-white">
-        <a href="" className=" hover:text-green-500">
+        <a href="/" className=" hover:text-green-500">
           <span>
             <FontAwesomeIcon icon={faHouse} />
           </span>
         </a>
-        <a href="" className=" hover:text-green-500">
+        <a href="/" className=" hover:text-green-500">
           <span>
             <FontAwesomeIcon icon={faFileLines} />
           </span>
         </a>
-        <a href="" className=" hover:text-green-500">
+        <a href="/" className=" hover:text-green-500">
           <span>
             <FontAwesomeIcon icon={faFileLines} />
           </span>
         </a>
-        <a href="" className=" hover:text-green-500">
+        <a href="/" className=" hover:text-green-500">
           <span>
             <FontAwesomeIcon icon={faGear} />
           </span>
