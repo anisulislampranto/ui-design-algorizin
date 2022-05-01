@@ -57,7 +57,7 @@ const DashBoard = () => {
         {/* Dashboard Body table section */}
         <div className="w-full">
           <h1 className="pl-8 pt-2 h-14 font-bold text-2xl">Inventory</h1>
-          <div className="p-6 border-t-2 border-neutral-200">
+          <div className=" p-3 sm:p-6 md:p-6 border-t-2 border-neutral-200">
             <div className="bg-white rounded-md">
               <div className="relative flex items-center p-5">
                 <FontAwesomeIcon
@@ -79,7 +79,7 @@ const DashBoard = () => {
       </div>
 
       {/* bottom AppBar for Mobilde Device */}
-      <div className="sm:hidden md:hidden lg:hidden w-screen flex justify-evenly fixed bottom-0 h-10 bg-white">
+      <div className="sm:hidden md:hidden lg:hidden w-screen flex justify-evenly items-center fixed bottom-0 h-10 bg-white">
         <a href="" className=" hover:text-green-500">
           <span>
             <FontAwesomeIcon icon={faHouse} />
