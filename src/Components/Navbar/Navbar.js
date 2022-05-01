@@ -12,12 +12,13 @@ const Navbar = () => {
     <div className="border-2">
       <nav className="flex items-center justify-between gap-5 mx-7 h-16 bg-white">
         <div className="flex items-center gap-10">
-          <h1 className="">
-            Starbucks <FontAwesomeIcon icon={faCaretDown} />
+          <h1 className="flex gap-2 items-center">
+            <span>Starbucks </span>
+            <FontAwesomeIcon icon={faCaretDown} />
           </h1>
           <div className="relative flex items-center">
             <FontAwesomeIcon
-              className="absolute mx-3"
+              className="absolute mx-3 hidden sm:block md:block"
               icon={faMagnifyingGlass}
             />
             <input
@@ -30,7 +31,7 @@ const Navbar = () => {
         <div className="flex items-center gap-5">
           <FontAwesomeIcon icon={faBell} />
           <img src={userImage} alt="" />
-          <h1>John Doe</h1>
+          <h1 className=" text-sm sm:text-lg">John Doe</h1>
           <FontAwesomeIcon icon={faCaretDown} />
         </div>
       </nav>
